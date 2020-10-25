@@ -3,15 +3,19 @@ import Stage from './Stage';
 import Cell from './Cell';
 import StartButton from './StartButton';
 import Display from './Display';
+import {createStage} from '../gameHelpers';
 
 const Tetris = ({gameOver, text}) => {
   return (
     <div>
-      <Stage />
+      <Stage stage={createStage()}/>
       <aside>
-        <Display text="Score"/>
-        <Display text="Rows"/>
-        <Display text="Level"/>
+            <div>
+                <Display text="Score"/>
+                <Display text="Rows"/>
+                <Display text="Level"/>
+          </div>
+          <StartButton />
       </aside>
     </div>
   );
