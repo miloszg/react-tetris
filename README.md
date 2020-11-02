@@ -6,7 +6,7 @@
 4. Enjoy and test your skills!
 
 Yarn will run the app in the development mode.
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser (it should open automatically).\
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser (it should open automatically).
 
 
 
